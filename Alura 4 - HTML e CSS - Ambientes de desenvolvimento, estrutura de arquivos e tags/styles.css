@@ -2,6 +2,7 @@
     --fundo: #000000;
     --texto-principal: #A6FC6F;
     --texto-secundario: #AC63E0;
+    --efeito-botao: #E5E9EC;
     --fonte-titulo: 'Krona One';
     --fonte-texto: 'Montserrat';
 }
@@ -16,6 +17,16 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
     justify-items: center;
+}
+
+@media screen and (max-width: 414px) {
+
+    .principal {
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .titulo {
@@ -39,6 +50,19 @@ body {
     margin-bottom: 2em;
 }
 
+@media screen and (max-width: 414px) {
+
+    .titulo {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .texto {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
 .botao {
     background-color: var(--texto-secundario);
     color: var(--fundo);
@@ -50,7 +74,34 @@ body {
     margin-left: 2em;
 }
 
+.botao-link:hover {
+    background-color: var(--efeito-botao);
+    transition: 10ms;
+}
+
+.botao-link:active {
+    background-color: var(--texto-principal);
+    transition: 10ms;
+}
+
+@media screen and (max-width: 414px) {
+
+    .botao {
+        display: block;
+        margin-bottom: 20px;
+        margin-left: 0;
+        text-align: center;
+    }
+}
+
 .imagem {
     width: 488px;
     display: inline-block;
+}
+
+@media screen and (max-width: 414px) {
+
+    .imagem {
+        width: 388px;
+    }
 }
