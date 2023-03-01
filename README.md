@@ -7,7 +7,7 @@
 
 Olá, Bem vindo ao meu projeto de portfolio.
 
-![image](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+![portfolio](https://user-images.githubusercontent.com/123994307/222042660-d954aa25-d9b4-4209-835a-718763602591.png)
 
 ## Ferramentas utilizadas:
 
