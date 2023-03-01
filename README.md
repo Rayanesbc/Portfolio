@@ -2,6 +2,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/status-em%20desenvolvimento-green">
+<img src="https://img.shields.io/badge/release%20date-mar%C3%A7o-green">
 </p>
 
 Olá, Bem vindo ao meu projeto de portfolio.
